@@ -1,0 +1,53 @@
+#main {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    font-family: Helvetica;
+    font-size: 2em;
+    padding: 0.5em 0 0.5em 0;
+    color: #191919;
+    text-align: center;
+  }
+  
+  #image {
+    width: 60%;
+    max-width: max-content; 
+  }
+  
+  #img-div {
+    background-color: #f1eee8;
+    width: 100%;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  p {
+    font-family: Georgia;
+  }
+  
+  #text-caption {
+    font-style: italic;
+    font-weight: bold;
+    min-width: 40%;
+    max-width: 60%;
+    text-align: center;
+  }
+  
+  #tribute-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+  }
+  
+  #tribute-text {
+    min-width: 50%;
+    max-width: 80%;
+    line-height: 1.5em;
+  }
